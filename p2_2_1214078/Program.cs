@@ -41,7 +41,7 @@ namespace p2_2_1214078
                 Console.WriteLine((gaji) + (gaji * 20 / 100) + (gaji * 15 / 100));
 
                 Console.Write("5. Gaji Bersih (Total Gaji – PPH)              = ");
-                Console.WriteLine((gaji) - (gaji * 35 / 1000));
+                Console.WriteLine(((gaji) + (gaji * 20 / 100) + (gaji * 15 / 100)) - (gaji * 35 / 1000));
 
                 Console.WriteLine("===============================");
                 Console.WriteLine("===============================");
